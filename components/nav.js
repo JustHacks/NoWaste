@@ -1,9 +1,8 @@
 import Link from "next/link";
-import styles from "../styles/Home.module.css";
+import styles from "@/styles/Nav.module.css";
 
 const Nav = () => (
-  <div styles={styles.container}>
-  <nav>
+  <nav className={styles.nav}>
     <h1>NoWaste</h1>
     <div className={styles.links}>
       <Link href="/">Home</Link>
@@ -12,7 +11,6 @@ const Nav = () => (
       <Link href="/shop">Shop</Link>
     </div>
   </nav>
-  </div>
-)
+);
 
-export default Nav
+export default Nav;

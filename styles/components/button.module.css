@@ -1,0 +1,13 @@
+.btn {
+   width: 263.06px;
+   height: 75px;
+   left: 153px;
+   top: 575px;
+   font-size: 22px;
+
+   color: white;
+   background: #0F906D;
+   filter: drop-shadow(6px 6px 1px #09654C);
+   border-radius: 50px 0px;
+   border: none;
+}

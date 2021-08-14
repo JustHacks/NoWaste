@@ -1,0 +1,30 @@
+.cont {
+   background: linear-gradient(0deg, rgba(255, 255, 255, 0) 18.81%, rgba(15, 144, 109, 0.7) 102.65%, #B8D6D1 102.65%, #FFFFFF 102.66%);
+}
+
+.bg {
+   background-image: url('/imgs/headerBlob.svg');
+   background-repeat: no-repeat;
+
+   height: 75vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.section {
+   display: flex;
+   max-width: 1200px;
+   margin: auto;
+   padding: 0 48px;
+   font-size: 22px;
+}
+
+.section h1 {
+   font-size: 48px;
+   color: #1A6651;
+}
+
+.section > div {
+   width: 45vw;
+}

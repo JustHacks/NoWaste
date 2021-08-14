@@ -1,15 +1,1 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Qwigley&display=swap');
-
-.container {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   height: 80vh;
-   background: linear-gradient(0deg, rgba(255, 255, 255, 0) 18.81%, rgba(15, 144, 109, 0.7) 102.65%, #B8D6D1 102.65%, #FFFFFF 102.66%);
-}
-
-.home {
-   display: flex;
-   justify-content: space-around;
-   margin: 60px;
-}
