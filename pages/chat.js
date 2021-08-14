@@ -5,9 +5,7 @@ import Button from "components/button";
 const Chat = () => (
   <>
     <Header>
-      <div>
-        <Image src="/imgs/bot.png" width="483px" height="539px" alt="Earth" />
-      </div>
+      
       <div>
         <h1>Chat Bot</h1>
         <p>
@@ -15,6 +13,9 @@ const Chat = () => (
           nesciunt, amet autem recusandae dolores aliquid.
         </p>
         <Button>Start</Button>
+      </div>
+      <div>
+        <Image src="/imgs/bot.png" width="300px" height="350px" alt="Earth" />
       </div>
     </Header>{" "}
   </>

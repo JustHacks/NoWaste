@@ -20,8 +20,8 @@ export default function Home() {
         <div>
           <Image
             src="/imgs/earth.png"
-            width="563px"
-            height="465px"
+            width="500px"
+            height="420px"
             alt="Earth"
           />
         </div>
