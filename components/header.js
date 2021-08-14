@@ -1,5 +1,5 @@
-import Nav from "@/components/nav";
-import styles from "@/styles/Header.module.css";
+import Nav from "../components/nav";
+import styles from "../styles/Header.module.css";
 
 const Header = ({ children }) => (
   <div className={styles.cont}>

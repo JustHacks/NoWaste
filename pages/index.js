@@ -1,6 +1,6 @@
 import Header from "../components/header";
 import styles from "../styles/Home.module.css";
-import Button from "@/components/button";
+import Button from "../components/button";
 
 import Image from "next/image";
 
