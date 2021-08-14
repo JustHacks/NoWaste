@@ -1,11 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Qwigley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Qwigley&family=Red+Hat+Display:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+:root{
+  --text:#1D2F50;
+  --white:#ffffff;
+  --primary:#0F906D;
+  --primary-dark:#1A6651;
+  --secondary: #daefd580;
+}
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Poppins' ,-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 100vw;
+  height: 100%;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: .5px;
 }
 
 a {
@@ -13,6 +29,12 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+h1 {
+  font-size: 45px;
+  color: var(--primary-dark);
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+p{
+  color: var(--text);
 }
