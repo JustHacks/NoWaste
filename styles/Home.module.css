@@ -8,28 +8,6 @@
    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 18.81%, rgba(15, 144, 109, 0.7) 102.65%, #B8D6D1 102.65%, #FFFFFF 102.66%);
 }
 
-.container nav {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-
-   padding: 0px 48px;
-   font-family: 'Poppins', sans-serif;
-   font-size: 22px;
-}
-
-.container nav h1 {
-   font-family: 'Qwigley';
-   font-size: 60px;
-   color: #1D2F50;
-   font-weight: 100;
-}
-
-.links a {
-   margin: 0 6px;
-   color: white;
-}
-
 .home {
    display: flex;
    justify-content: space-around;

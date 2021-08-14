@@ -1,18 +1,11 @@
 import Link from "next/link";
+import Nav from "../components/nav"
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <nav>
-        <h1>NoWaste</h1>
-        <div className={styles.links}>
-          <Link href="/">Home</Link>
-          <Link href="/">Cam</Link>
-          <Link href="/">Chat</Link>
-          <Link href="/">Shop</Link>
-        </div>
-      </nav>
+      <Nav />
       <div className={styles.home}>
         <div>
           <h1>NoWaste</h1>
