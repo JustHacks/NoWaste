@@ -14,7 +14,7 @@ const Chat = () => (
         <Button>Start</Button>
       </div>
       <div>
-        <Image src="/imgs/bot.png" width="300px" height="350px" alt="Earth" />
+        <Image src="/imgs/bot.png" width="450px" height="500px" alt="Earth" />
       </div>
     </Header>{" "}
   </>
