@@ -32,7 +32,7 @@ a{
 
 h1{
   font-size: 45px;
-  margin-bottom:10px; 
+  margin-bottom:20px; 
   color: var(--primary-dark);
   font-family: 'Red Hat Display', sans-serif;
 }
@@ -45,4 +45,23 @@ p{
   max-width: 600px;
   text-align: center;
   margin: 2em auto;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 5em auto;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.text{
+  max-width: 600px;
+  padding: 10px;
+}
+
+.content:nth-child(odd){
+  flex-wrap: wrap-reverse;
 }

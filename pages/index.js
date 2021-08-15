@@ -43,6 +43,33 @@ export default function Home() {
           <Features />
         </div>
       </div>
+
+      <div className="content">
+      <Image src="/imgs/inspo.png" width="576px" height="297px" alt="Earth" />
+        <div className="text">
+          <h1>Inspiration</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum sequi nesciunt, ipsa amet autem recusandae dolores aliquid ducimus quis quia, repellendus exercitationem consequatur voluptatem aperiam. Fuga quam provident dicta.
+          </p>
+        </div>
+      </div>
+
+      <div className="content">
+        <div className="text">
+          <h1>How NoWaste Helps?</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum sequi nesciunt, ipsa amet autem recusandae dolores aliquid ducimus quis quia, repellendus exercitationem consequatur voluptatem aperiam. Fuga quam provident dicta.
+          </p>
+        </div>
+        <Image src="/imgs/helpus.png" width="576px" height="297px" alt="Earth" />
+      </div>
+
+        <div className="heading">
+          <h1>Contribute</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum sequi nesciunt, ipsa amet autem recusandae dolores aliquid ducimus quis quia.
+          </p>
+          <Button>Github</Button>
+        </div>
+
     <Footer />
     </div>
   );

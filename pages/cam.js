@@ -33,6 +33,16 @@ export default function Cam() {
 			<div className={camStyles.labelContainer} id="label-container"></div>
 			<Button type="button" onclick="init()" id="startBtn">Start</Button>
 		</div>
+    
+      <div className="heading">
+          <h1>Start Recycling</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum sequi nesciunt, ipsa amet autem recusandae dolores aliquid ducimus quis quia.
+          </p>
+          <Button>Learn More</Button>
+        </div>
+
+
   </div>
   
   );
