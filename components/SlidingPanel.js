@@ -8,7 +8,6 @@ const Section = styled.section`
   img {
     width: 350px;
     height: 270px;
-    border-style: solid;
     display: inline-block;
   }
 

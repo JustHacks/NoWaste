@@ -1,3 +1,12 @@
 {
-  "files": {}
+  "files": {
+    "styles/components/footer.css": [
+      {
+        "id": "f6324a5d-59c5-4d6d-a463-6a0642bd3856",
+        "line": 1,
+        "version": 0,
+        "index": 0
+      }
+    ]
+  }
 }

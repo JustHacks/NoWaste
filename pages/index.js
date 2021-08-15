@@ -1,6 +1,8 @@
 import Header from "../components/header";
 import Button from "../components/button";
-import SlidingPanel from "../components/SlidingPanel";
+import Features from "../components/Features";
+import Footer from "../components/footer";
+
 import styles from "../styles/Home.module.css";
 
 import Image from "next/image";
@@ -38,47 +40,10 @@ export default function Home() {
           </p>
           </div>
         <div className={styles.card}>
-          <SlidingPanel name="Carbon Footprints" bgcolor="#f6e576bf">
-            <Image
-              src="/imgs/cfoot.png"
-              width="200px"
-              height="200px"
-              alt="CarbonFootprints"
-            />
-          </SlidingPanel>
-
-          <SlidingPanel name="E-shop" bgcolor="#f6c68dbf">
-            <Image src="/imgs/eshop.png" width="170" height="150" alt="EShop" />
-          </SlidingPanel>
-
-          <SlidingPanel name="Chat Bot" bgcolor="#b0a3f4bf">
-            <Image
-              src="/imgs/chatbot.png"
-              width="380px"
-              height="300px"
-              alt="ChatBot"
-            />
-          </SlidingPanel>
-
-          <SlidingPanel name="Donate Food" bgcolor="#78b5e2bf">
-            <Image
-              src="/imgs/reuse.png"
-              width="200px"
-              height="200px"
-              alt="Donatefood"
-            />
-          </SlidingPanel>
-
-          <SlidingPanel name="Recycle" bgcolor="#8dc37abf">
-            <Image
-              src="/imgs/recycle.png"
-              width="150px"
-              height="150px"
-              alt="Recycle"
-            />
-          </SlidingPanel>
+          <Features />
         </div>
       </div>
+    <Footer />
     </div>
   );
 }

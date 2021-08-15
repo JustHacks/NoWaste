@@ -1,8 +1,12 @@
 import Header from "../components/header";
 import Image from "next/image";
+import Button from "../components/button";
+import styles from "../styles/Home.module.css";
+import camStyles from "../styles/cam.module.css"
 
-const Cam = () => (
-  <>
+export default function Cam() {
+  return (
+    <div>
     <Header>
       <div>
         <h1>Importance of Recycling Correct Items</h1>
@@ -21,8 +25,18 @@ const Cam = () => (
           alt="Earth"
         />
       </div>
-    </Header>{" "}
-  </>
-);
+    </Header>
+ 
+		<div className={camStyles.cam}>
+			<h1>Cam</h1>
+			<div className={styles.camDisplay} id="webcam-container"></div>
+			<div className={styles.labelContainer} id="label-container"></div>
+			<Button type="button" onclick="init()" id="startBtn">Start</Button>
+		</div>
+  </div>
+  
+  );
 
-export default Cam;
+}
+
+
