@@ -37,11 +37,12 @@ const Section = styled.section`
     padding: 20px;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    background-color: rgba(168, 102, 57, 0.9);
+    background-color: ${(props) => props.bgcolor};
     color: #ffffff;
     transition: transform 0.3s ease;
     -webkit-transition: transform 0.3s ease;
   }
+
   .slide:hover .slide-content {
     transform: translate(0, 0);
     -webkit-transform: translate(0, 0);
@@ -53,8 +54,8 @@ const Section = styled.section`
   }
 `;
 
-const SlidingPanel = ({ name, children }) => (
-  <Section>
+const SlidingPanel = ({ name, children, bgcolor = "purple" }) => (
+  <Section bgcolor={bgcolor}>
     <div className="slide slide-bottom">
       <div className="slide-content">{name}</div>
       {children}

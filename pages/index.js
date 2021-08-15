@@ -36,7 +36,7 @@ export default function Home() {
           in their communities by recycling, donating, and substituting things.
         </p>
         <div className={styles.card}>
-          <SlidingPanel name="Carbon Footprints">
+          <SlidingPanel name="Carbon Footprints" bgcolor="#f6e576bf">
             <Image
               src="/imgs/cfoot.png"
               width="200px"
@@ -45,11 +45,11 @@ export default function Home() {
             />
           </SlidingPanel>
 
-          <SlidingPanel name="E-shop">
+          <SlidingPanel name="E-shop" bgcolor="#f6c68dbf">
             <Image src="/imgs/eshop.png" width="170" height="150" alt="EShop" />
           </SlidingPanel>
 
-          <SlidingPanel name="Chat Bot">
+          <SlidingPanel name="Chat Bot" bgcolor="#b0a3f4bf">
             <Image
               src="/imgs/chatbot.png"
               width="380px"
@@ -58,7 +58,7 @@ export default function Home() {
             />
           </SlidingPanel>
 
-          <SlidingPanel name="Donate Food">
+          <SlidingPanel name="Donate Food" bgcolor="#78b5e2bf">
             <Image
               src="/imgs/reuse.png"
               width="200px"
@@ -67,7 +67,7 @@ export default function Home() {
             />
           </SlidingPanel>
 
-          <SlidingPanel name="Recycle">
+          <SlidingPanel name="Recycle" bgcolor="#8dc37abf">
             <Image
               src="/imgs/recycle.png"
               width="150px"
