@@ -29,8 +29,8 @@ export default function Cam() {
  
 		<div className={camStyles.cam}>
 			<h1>Cam</h1>
-			<div className={styles.camDisplay} id="webcam-container"></div>
-			<div className={styles.labelContainer} id="label-container"></div>
+			<div className={camStyles.camDisplay} id="webcam-container"></div>
+			<div className={camStyles.labelContainer} id="label-container"></div>
 			<Button type="button" onclick="init()" id="startBtn">Start</Button>
 		</div>
   </div>
