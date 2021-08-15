@@ -9,8 +9,7 @@ const Chat = () => (
       <div>
         <h1>Chat Bot</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum sequi
-          nesciunt, amet autem recusandae dolores aliquid.
+          You can use NoWaste’s chatbot to learn more about recycling and get answers to questions like how many people recycle in a day.
         </p>
         <Button>Start</Button>
       </div>

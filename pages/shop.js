@@ -7,8 +7,7 @@ const Shop = () => (
       <div>
         <h1>Find Eco-friendly shops near you</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum sequi
-          nesciunt, amet autem recusandae dolores aliquid.
+          We utilized the google maps API for Eco-friendly shop search to narrow down and locate recycling centers and food donating/receiving places in your local community.
         </p>
       </div>
       <div>

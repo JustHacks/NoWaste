@@ -7,10 +7,10 @@ const Cam = () => (
       <div>
         <h1>Importance of Recycling Correct Items</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum sequi
-          nesciunt, ipsa amet autem recusandae dolores aliquid ducimus quis
-          quia, repellendus exercitationem consequatur voluptatem aperiam. Fuga
-          quam provident dicta.
+          We used machine learning and tensorflow.js to detect whether certain products are recyclable or not. 
+        </p>
+        <p>
+          Modal in JS to Indicate if you have extra food and see houses that have extra food.
         </p>
       </div>
       <div>
