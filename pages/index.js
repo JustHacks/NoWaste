@@ -30,11 +30,13 @@ export default function Home() {
 
       {/* Features */}
       <div className={styles.features}>
-        <h1>Features</h1>
-        <p>
-          NoWaste provides a multitude of ways for people to help reduce waste
-          in their communities by recycling, donating, and substituting things.
-        </p>
+        <div className="heading">
+          <h1>Features</h1>
+          <p>
+            NoWaste provides a multitude of ways for people to help reduce waste
+            in their communities by recycling, donating, and substituting things.
+          </p>
+          </div>
         <div className={styles.card}>
           <SlidingPanel name="Carbon Footprints" bgcolor="#f6e576bf">
             <Image

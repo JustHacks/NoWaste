@@ -3,10 +3,8 @@
 }
 
 .bg {
-
   background-image: url('/imgs/headerBlob.svg');
   background-repeat: no-repeat;
-
 }
 
 .cont {
@@ -35,7 +33,4 @@
 .section > div:nth-child(1){
   width: 100%;
   min-width: 300px;
-  display: flex; 
-  flex-direction: column;
-  gap: 20px;
 }
