@@ -1,7 +1,7 @@
 import Header from "../components/header";
 import Image from "next/image";
 import Footer from "../components/footer"; 
-import Button from "../components/button"
+import Button from "../components/button";
 
 const Shop = () => (
   <>
@@ -17,6 +17,14 @@ const Shop = () => (
       </div>
     </Header>
 
+    <div className="single-btn">
+      <Button>Allow Location Access</Button>
+    </div>
+
+     <div className="single-img-one">
+        <Image src="/imgs/shop.png" width="700px" height="800px" alt="shop" />
+    </div>
+
     <div className="content">
         <Image src="/imgs/gogreen.png" width="480px" height="420px" alt="gogreen" />
         <div className="text">
@@ -26,7 +34,7 @@ const Shop = () => (
         </div>
     </div>
     
-    <div className="heading">
+    <div className="single-btn">
       <Button>Learn More</Button>
     </div>
 
@@ -36,3 +44,19 @@ const Shop = () => (
 );
 
 export default Shop;
+
+// //var axios = require('axios');
+
+// var config = {
+//   method: 'get',
+//   url: 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=Museum of Contemporary Art Australia&inputtype=textquery&fields=formatted_address,name,rating,opening_hours,geometry&key=YOUR_API_KEY',
+//   headers: { }
+// };
+
+// axios(config)
+// .then(function (response) {
+//   console.log(JSON.stringify(response.data));
+// })
+// .catch(function (error) {
+//   console.log(error);
+// });

@@ -1,5 +1,27 @@
 {
   "files": {
+    "pages/cam.js": [
+      {
+        "id": "e5ba1965-7bab-4f47-955f-0a63a855b36b",
+        "line": 63,
+        "version": 782,
+        "index": 2029
+      },
+      {
+        "id": "09e07f19-190d-48cc-afeb-7e41ea4d45e4",
+        "line": 63,
+        "version": 782,
+        "index": 2029
+      }
+    ],
+    "pages/shop.js": [
+      {
+        "id": "3a6c4c81-d145-4029-8ce6-5e866d69969f",
+        "line": 12,
+        "version": 170,
+        "index": 286
+      }
+    ],
     "styles/components/footer.css": [
       {
         "id": "f6324a5d-59c5-4d6d-a463-6a0642bd3856",

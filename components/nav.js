@@ -1,9 +1,23 @@
 import Link from "next/link";
 import styles from "../styles/Nav.module.css";
 import { useRouter } from "next/router";
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
+
+const goDown = keyframes`
+    from {
+      transform: translate(0,-120px);
+    }
+    to {
+      transform: translate(0, 0px);
+    }
+`
 
 const DownPointy = styled.div`
+  @media screen and (max-width: 557px){ 
+    display: none;
+  }
+
+  animation: ${goDown} 0.7s 1;
   background: #0f906d;
   display: inline-block;
   height: 90px;

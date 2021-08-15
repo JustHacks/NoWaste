@@ -23,3 +23,15 @@
   margin: 0 18px;
   color: white;
 }
+
+  @media screen and (max-width: 557px){ 
+    .nav {
+      background-color: #008055;
+      height: auto;
+      padding: 24px 40px;
+    }
+
+    .nav h1 {
+      color: #fff;
+    }
+  }

@@ -48,7 +48,8 @@ export default function Home() {
       <Image src="/imgs/inspo.png" width="576px" height="297px" alt="Earth" />
         <div className="text">
           <h1>Inspiration</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum sequi nesciunt, ipsa amet autem recusandae dolores aliquid ducimus quis quia, repellendus exercitationem consequatur voluptatem aperiam. Fuga quam provident dicta.
+          <p>
+We throw out over 2 billion tons of household waste a year globally. That's more than 60 tons of waste every second. So we need to pusha more waste-free living!
           </p>
         </div>
       </div>
@@ -56,7 +57,7 @@ export default function Home() {
       <div className="content">
         <div className="text">
           <h1>How NoWaste Helps?</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum sequi nesciunt, ipsa amet autem recusandae dolores aliquid ducimus quis quia, repellendus exercitationem consequatur voluptatem aperiam. Fuga quam provident dicta.
+          <p>By providing information and resources on how to recycle items and items that are recyclable for a more sustainable living!
           </p>
         </div>
         <Image src="/imgs/helpus.png" width="576px" height="297px" alt="Earth" />
@@ -65,7 +66,7 @@ export default function Home() {
         <div className="heading">
           <h1>Contribute</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum sequi nesciunt, ipsa amet autem recusandae dolores aliquid ducimus quis quia.
+            NoWaste is an open source project, feel free to Contribute to our project and help to make our world a better place.
           </p>
           <Button>Github</Button>
         </div>

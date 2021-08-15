@@ -1,11 +1,11 @@
 import Header from "../components/header";
 import Image from "next/image";
 import Button from "components/button";
+import Footer from "../components/footer"; 
 
 const Chat = () => (
   <>
     <Header>
-      
       <div>
         <h1>Chat Bot</h1>
         <p>
@@ -14,9 +14,19 @@ const Chat = () => (
         <Button>Start</Button>
       </div>
       <div>
-        <Image src="/imgs/bot.png" width="450px" height="500px" alt="Earth" />
+        <Image src="/imgs/bot.png" width="450px" height="500px" alt="bot" />
       </div>
-    </Header>{" "}
+    </Header>
+
+     <div className="single-img-one">
+        <Image src="/imgs/chat.png" width="800px" height="800px" alt="chat" />
+    </div>
+
+    <div className="single-img">
+        <Image src="/imgs/circles.png" width="1100px" height="500px" alt="circles" />
+    </div>
+
+    <Footer />
   </>
 );
 

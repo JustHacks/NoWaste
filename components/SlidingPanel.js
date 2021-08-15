@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 const Section = styled.section`
+background:#daefd580;
+	border-radius: .5em;
+
+
   display: inline-block;
   overflow: hidden;
   margin-left: 10px;

@@ -6,7 +6,6 @@
   margin: 0;
 }
 
-
 :root{
   --text:#1D2F50;
   --white:#ffffff;
@@ -64,4 +63,27 @@ p{
 
 .content:nth-child(odd){
   flex-wrap: wrap-reverse;
+}
+
+.single-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5em;
+}
+
+
+.single-img{
+  width: 80%;
+  max-width: 1000px;
+  margin: 2em auto;
+}
+
+.single-img-one{
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
 }
