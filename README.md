@@ -22,3 +22,9 @@ In the future:
 - Tensorflow.js, 
 - HTML, CSS, JS, and 
 - Google Cloud API
+
+## Team
+- @cyraalesha,
+- @lilykhan786,
+- @yashguptaz and
+- @reevakhokhar.
