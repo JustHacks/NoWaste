@@ -24,7 +24,7 @@ In the future:
 - Google Cloud API
 
 ## Team
-- @cyraalesha,
-- @lilykhan786,
-- @yashguptaz and
-- @reevakhokhar.
+- [Cyra Alesha](https://github.com/cyraalesha),
+- [Lily Khan](https://github.com/Lilykhan786),
+- [Yash gupta](https://github.com/yashguptaz), and
+- [Reeva khokhar](https://github.com/reevakhokhar).
