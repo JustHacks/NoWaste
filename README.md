@@ -24,7 +24,7 @@ In the future:
 - Google Cloud API
 
 ## Team
-- [Cyra Alesha](https://github.com/cyraalesha),
-- [Lily Khan](https://github.com/Lilykhan786),
-- [Yash gupta](https://github.com/yashguptaz), and
-- [Reeva khokhar](https://github.com/reevakhokhar).
+- [Cyra Alesha](https://github.com/cyraalesha) - Cam, Video, and little in everything.
+- [Lily Khan](https://github.com/Lilykhan786) - Design, Front-end and Slides.
+- [Yash gupta](https://github.com/yashguptaz) - Front-end and Animation.
+- [Reeva khokhar](https://github.com/reevakhokhar) - Idea and Video.
